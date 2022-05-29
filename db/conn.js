@@ -14,7 +14,7 @@ const option = {
 	useFindAndModify: false,
 };
 
-mongoose.connect('mongodb+srv://mern:mongodb@cluster0.prjff.mongodb.net/OMMCAtlas?retryWrites=true&w=majority', option)
+mongoose.connect(Db, option)
 	.then(() => {
 		console.log('Mongoose init succeeded')
 	}).catch((err) => {
