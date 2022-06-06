@@ -1,4 +1,4 @@
-const ResponseModelSchema = require("../Schemas/user.schema");
+const ResponseModelSchema = require("../Schemas/Response.schema");
 
 /* Create */
 ResponseModelSchema.Create = async function (req, res) {
